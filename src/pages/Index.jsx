@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { VStack, Button, Box, Center, Image, Heading } from "@chakra-ui/react";
 import { FaTshirt, FaPaintBrush, FaUpload } from "react-icons/fa";
 
 const Index = () => {
+  const [product, setProduct] = useState("tshirt");
   return (
     <Box>
       <Center h="100vh">
